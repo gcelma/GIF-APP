@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>GIF App</title>
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    </head>
+    <body>
+        <main class="container">
+            <div class="row justify-content-center mt-5">
+                <div class="col-sm-8 col-md-6 col-lg-6 col-xl-6">
+                    <form class="form-search text-center">
+                        <h1>Look up for a GIF</h1>    
+                        <label for="inputSearch" class="sr-only">Search</label>
+                        <input type="text" id="inputSearch" class="form-control mt-5" placeholder="Search" required autofocus>
+                        <button class="btn btn-lg btn-primary btn-block mt-3" type="submit">Search</button>  
+                    </form>
+                    <div id="results">
+                    <!-- Append result of 1st search query -->
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- BOOTSTRAP -->
+        <script src="vendor/jquery-3.3.1.js"></script>
+        <script src="vendor/popper.min.js"></script>
+        <script src="vendor/bootstrap.min.js"></script>
+        <!-- CUSTOM JAVASCRIPT -->
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
